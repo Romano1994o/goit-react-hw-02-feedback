@@ -36,7 +36,7 @@ export class App extends Component {
   render() {
     const options = ['good', 'neutral', 'bad'];
     const totalFeedback = this.countTotalFeedback();
-    const positivePercentage = this.countPositiveFeedbackPercentage(options);
+    const positivePercentage = this.countPositiveFeedbackPercentage();
     
    
 
